@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: 7px;
+}
+.main1{
+    margin:7px;
+}
+.b1{
+    background-color: white;
+    height: 36px;
+    width: 62px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    text-align: center;
+   cursor: pointer;
+   margin-right: 15px;
+}
+.b2{
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    width: auto;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+.b2:hover,
+.b2:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.b2:hover {
+  transform: translateY(-1px);
+}
+
+.b2:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.h3{
+    line-height: 30px;
+}
+.last{
+  
+    margin-bottom: 40px;
+}
+
+.text{
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bb1{
+    width: auto;
+    min-height: 3rem;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    color: black;
+    border: 2px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    margin-right: 5px;
+}
+.bb2{
+    width: auto;
+    min-height: 3rem;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    color: black;
+    border: 2px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+}

@@ -1,10 +1,14 @@
 import './App.css';
-
+import Less1 from './components/Less1';
+import Main from './home/Main'
 function App() {
   return (
-    <div className="App">
-   
-    </div>
+    <>
+   <Main/>
+   <br/>
+   <hr/>
+   <Less1/>
+    </>
   );
 }
 
